@@ -6,5 +6,5 @@
 package 'httpd'
 
 service 'httpd' do
-  action [ :start, :enable ]
+  action [ :enable , :start ]
 end
